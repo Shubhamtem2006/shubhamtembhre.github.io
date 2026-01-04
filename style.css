@@ -13,26 +13,32 @@ body{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  height:100vh;
+  height:50px;
+  width:50px;
   padding:0 80px;
+  taxt-align:center;
 }
 
 .text{
   max-width:50%;
+   taxt-align:center;
 }
 
 .text h1{
   font-size:48px;
   color:#0b1c44;
+   taxt-align:center;
 }
 
 .text h1 span{
   color:orange;
+   taxt-align:center;
 }
 
 .text p{
   margin:15px 0;
   font-size:18px;
+   taxt-align:center;
 }
 
 .btn{
@@ -64,4 +70,5 @@ body{
 .img img{
   width:280px;
   border-radius:50%;
+
 }
